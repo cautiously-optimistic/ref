@@ -1,0 +1,45 @@
+@media print{
+    header, nav, footer, .btn, video{
+        display: none !important;
+    }
+    body{
+        background-color: white;
+    }
+    body *{
+        color: black !important;
+        border: none !important;
+    }
+
+    #main::before{
+        content: "The Almanac";
+        font-size: 3em;
+        font-family: 'Sedan', serif;
+        font-weight: bold;
+    }
+
+    #main{
+        box-shadow: none;
+    }
+    img.decorative{
+        width: 40% !important;
+    }
+    figure img{
+        width: 70% !important;
+    }
+    
+    .d-none{
+        display: block !important;
+    }
+    table.table-dark{
+        background-color: white;
+        color: black;
+    }
+    table.table-dark *{
+        background-color: white;
+        color: black;
+    }
+
+    table .d-none{
+        display: none !important;
+    }
+}

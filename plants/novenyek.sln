@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "novenyek", "novenyek\novenyek.csproj", "{64C073FD-D014-4391-A15A-B77612E5D133}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "TestNovenyek\UnitTests.csproj", "{FFDDDEC7-691D-489D-9D46-F4FEADDC644A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullTests", "FullTests\FullTests.csproj", "{ED62AA7D-A2B3-4DB9-8198-1CEC790F4F21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64C073FD-D014-4391-A15A-B77612E5D133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C073FD-D014-4391-A15A-B77612E5D133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C073FD-D014-4391-A15A-B77612E5D133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C073FD-D014-4391-A15A-B77612E5D133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFDDDEC7-691D-489D-9D46-F4FEADDC644A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFDDDEC7-691D-489D-9D46-F4FEADDC644A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFDDDEC7-691D-489D-9D46-F4FEADDC644A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFDDDEC7-691D-489D-9D46-F4FEADDC644A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED62AA7D-A2B3-4DB9-8198-1CEC790F4F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED62AA7D-A2B3-4DB9-8198-1CEC790F4F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED62AA7D-A2B3-4DB9-8198-1CEC790F4F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED62AA7D-A2B3-4DB9-8198-1CEC790F4F21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9E06B2E-EB83-4539-9BFF-D630BFD2203E}
+	EndGlobalSection
+EndGlobal

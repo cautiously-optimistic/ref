@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Almanac - Ports</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link id="style" rel="stylesheet" href="style/maintheme.css">
+    <link rel="stylesheet" href="style/print.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="visually-hidden-focusable">
+        <a href="#main">Jump to content</a>
+    </nav>
+
+    <header>
+        <a href="index.html" class="unaffected-link">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-1 col-lg-2"></div>
+                    <div class="col-3 col-lg-2">
+                        <img src="src/logo3.png" class="decorative" alt="logo">
+                    </div>
+                    <div class="col-4 col-lg-4 text-center">
+                        <h1 class="unaffected-link">The Almanac</h1>
+                    </div>
+                    <div class="col-4"></div>
+                </div>
+            </div>
+        </a>
+    </header>
+
+    <div class="container-lg">
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav text-center">
+                        <li class="nav-item">
+                            <a class="nav-link unaffected-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active unaffected-link" aria-current="page" href="ports.html">Ports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link unaffected-link" href="officers.html">Officers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link unaffected-link" href="feedback.html">Feedback</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle unaffected-link" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Style
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item" type="button"
+                                        onclick='document.getElementById("style").href = "style/maintheme.css";'>Main</button>
+                                </li>
+                                <li><button class="dropdown-item" type="button"
+                                        onclick='document.getElementById("style").href = "style/alttheme.css";'>High-contrast</button>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main id="main" class="container-lg text-start">
+            <article>
+                <section>
+                    <h2>Ports</h2>
+                    <q class="flavour">As soon as the gang-plank touches the quay-side, the terrors of the deep zee
+                        lighten.
+                        Walk taller: smile more readily</q>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>
+                                Ports are the oh so rare <strong>safe harbours</strong> on a largely hostile and
+                                treacherous sea. They allow
+                                you to stock up on <strong>supplies</strong> and <strong>fuel</strong>, and lower your
+                                <strong>terror</strong>, and they’re also where most of
+                                the <strong>stories</strong> play out.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <hr>
+                <!-- Fuel and supplies -->
+                <section>
+                    <h3>
+                        Fuel and supplies
+                    </h3>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>
+                                The success of a journey lies in <strong>planning your route well</strong> – to help
+                                with that, I’ve
+                                compiled a table that compares <strong>the price of fuel and supplies</strong> at each
+                                port, so you don’t
+                                get any unpleasant surprises - such as finding that the port where you planned to stock
+                                up on fuel sells it at three times the average price, or that the place you barely
+                                managed to get to on the edge of starvation doesn’t sell supplies at all.
+                                <br>
+                                The table doesn’t contain ports without shops. The prices are all in echoes, unless
+                                otherwise specified.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- collapsable table for md screens and up + button -->
+                        <div class="d-none d-md-block col-md-12 text-center">
+                            <button class="btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#fuelAndSupplies" aria-expanded="false" aria-controls="fuelAndSupplies">
+                                Show table
+                            </button>
+                            <div id="fuelAndSupplies" class="collapse">
+                                <table class="table table-dark table-bordered">
+                                    <caption>
+                                        <strong>Table of both fuel and supply prices</strong>
+                                        <details>
+                                            <summary>More</summary>
+                                            <p>A table of fuel and supply prices, buying and selling, at each port.</p>
+                                        </details>
+                                    </caption>
+                                    <thead>
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col" colspan="2">Fuel</th>
+                                            <th scope="col" colspan="2">Supplies</th>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col">Port</th>
+                                            <th scope="col">Buying</th>
+                                            <th scope="col">Selling</th>
+                                            <th scope="col">Buying</th>
+                                            <th scope="col">Selling</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="table-group-divider">
+                                        <tr>
+                                            <th scope="row">Adam's Way</th>
+                                            <td>12</td>
+                                            <td>2</td>
+                                            <td>25</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Aigul</th>
+                                            <td>12</td>
+                                            <td>3</td>
+                                            <td>23</td>
+                                            <td>10</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Anthe</th>
+                                            <td>12</td>
+                                            <td>3</td>
+                                            <td>25</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Codex</th>
+                                            <td>20</td>
+                                            <td>1</td>
+                                            <td>30</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">The Cumaean Canal</th>
+                                            <td>20</td>
+                                            <td>1</td>
+                                            <td>30</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Dahut</th>
+                                            <td>10</td>
+                                            <td>1</td>
+                                            <td>19</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Demeaux Island</th>
+                                            <td>20</td>
+                                            <td>1</td>
+                                            <td>30</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">London</th>
+                                            <td>10</td>
+                                            <td>2</td>
+                                            <td>20</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Gaider's Mourn</th>
+                                            <td>30</td>
+                                            <td>10</td>
+                                            <td>40</td>
+                                            <td>20</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Gant Pole</th>
+                                            <td>12</td>
+                                            <td>1</td>
+                                            <td>18</td>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Hideaway</th>
+                                            <td>-</td>
+                                            <td>9</td>
+                                            <td>-</td>
+                                            <td>15</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Irem</th>
+                                            <td>20 (or sell 1 Captivating Treasure for 50 Fuel)</td>
+                                            <td>0</td>
+                                            <td>30 (or sell 1 Element of Dawn for 25 Supplies)</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Iron Republic: House of Pleasures</th>
+                                            <td>8</td>
+                                            <td>0</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Iron Republic: House of Milks</th>
+                                            <td>8</td>
+                                            <td>0</td>
+                                            <td>-</td>
+                                            <td>25</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Iron Republic: House of Harvests</th>
+                                            <td>8</td>
+                                            <td>0</td>
+                                            <td>15</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Iron Republic: House of Harms</th>
+                                            <td>1 Lamentable Relic</td>
+                                            <td>0</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Isle of Cats</th>
+                                            <td>20</td>
+                                            <td>1</td>
+                                            <td>30</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Khan's Heart (no Nephrite Ring)</th>
+                                            <td>50</td>
+                                            <td>-</td>
+                                            <td>50</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Khan's Heart (with Nephrite Ring)</th>
+                                            <td>15</td>
+                                            <td>2</td>
+                                            <td>25</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Khan's Shadow</th>
+                                            <td>15</td>
+                                            <td>0</td>
+                                            <td>25</td>
+                                            <td>15</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Light-Ships</th>
+                                            <td>20</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Low Barnet</th>
+                                            <td>2 Tales of Terror</td>
+                                            <td>0</td>
+                                            <td>3 Memories of Distant Shores</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Mount Palmerston</th>
+                                            <td>9</td>
+                                            <td>1</td>
+                                            <td>22</td>
+                                            <td>11</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Mutton Island</th>
+                                            <td>20</td>
+                                            <td>1</td>
+                                            <td>30</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Nook</th>
+                                            <td>11</td>
+                                            <td>1</td>
+                                            <td>20</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Nuncio</th>
+                                            <td>20</td>
+                                            <td>1</td>
+                                            <td>30</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Polythreme</th>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Port Carnelian</th>
+                                            <td>12</td>
+                                            <td>0</td>
+                                            <td>18</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Port Cecil</th>
+                                            <td>20</td>
+                                            <td>1</td>
+                                            <td>30</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Rosegate</th>
+                                            <td>20</td>
+                                            <td>7</td>
+                                            <td>20</td>
+                                            <td>20</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Saviour's Rocks</th>
+                                            <td>20</td>
+                                            <td>1</td>
+                                            <td>30</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Scrimshander</th>
+                                            <td>10</td>
+                                            <td>2</td>
+                                            <td>23</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Shepherd Isles</th>
+                                            <td>20</td>
+                                            <td>1</td>
+                                            <td>30</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">The Chelonate</th>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Venderbight</th>
+                                            <td>20</td>
+                                            <td>2</td>
+                                            <td>30</td>
+                                            <td>8</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Whither</th>
+                                            <td>1 Zee-Ztory</td>
+                                            <td>0</td>
+                                            <td>2 Tales of Terror</td>
+                                            <td>1 Tale of Terror</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Wisdom</th>
+                                            <td>20</td>
+                                            <td>1</td>
+                                            <td>30</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Wrack: Struggling</th>
+                                            <td>20</td>
+                                            <td>11</td>
+                                            <td>40</td>
+                                            <td>22</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Wrack: Prospering</th>
+                                            <td>8</td>
+                                            <td>1</td>
+                                            <td>15</td>
+                                            <td>3</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+                        <!-- collapsable tables for small screens + buttons -->
+                        <div class="d-block d-md-none col-12 text-center">
+                            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#fuel"
+                                aria-expanded="false" aria-controls="fuel">
+                                Show table for Fuel
+                            </button>
+                            <div id="fuel" class="collapse">
+                                <table class="table table-dark table-bordered">
+                                    <caption>
+                                        <strong>Table of fuel prices</strong>
+                                        <details>
+                                            <summary>More</summary>
+                                            <p>A table of fuel prices, buying and selling, at each port.</p>
+                                        </details>
+                                    </caption>
+                                    <thead>
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col" colspan="2">Fuel</th>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col">Port</th>
+                                            <th scope="col">Buying</th>
+                                            <th scope="col">Selling</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="table-group-divider">
+                                        <tr>
+                                            <th scope="row">Adam's Way</th>
+                                            <td>12</td>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Aigul</th>
+                                            <td>12</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Anthe</th>
+                                            <td>12</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Codex</th>
+                                            <td>20</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">The Cumaean Canal</th>
+                                            <td>20</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Dahut</th>
+                                            <td>10</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Demeaux Island</th>
+                                            <td>20</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">London</th>
+                                            <td>10</td>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Gaider's Mourn</th>
+                                            <td>30</td>
+                                            <td>10</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Gant Pole</th>
+                                            <td>12</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Hideaway</th>
+                                            <td>-</td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Irem</th>
+                                            <td>20 (or sell 1 Captivating Treasure for 50 Fuel)</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Iron Republic: House of Pleasures</th>
+                                            <td>8</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Iron Republic: House of Milks</th>
+                                            <td>8</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Iron Republic: House of Harvests</th>
+                                            <td>8</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Iron Republic: House of Harms</th>
+                                            <td>1 Lamentable Relic</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Isle of Cats</th>
+                                            <td>20</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Khan's Heart (no Nephrite Ring)</th>
+                                            <td>50</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Khan's Heart (with Nephrite Ring)</th>
+                                            <td>15</td>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Khan's Shadow</th>
+                                            <td>15</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Light-Ships</th>
+                                            <td>20</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Low Barnet</th>
+                                            <td>2 Tales of Terror</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Mount Palmerston</th>
+                                            <td>9</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Mutton Island</th>
+                                            <td>20</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Nook</th>
+                                            <td>11</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Nuncio</th>
+                                            <td>20</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Polythreme</th>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Port Carnelian</th>
+                                            <td>12</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Port Cecil</th>
+                                            <td>20</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Rosegate</th>
+                                            <td>20</td>
+                                            <td>7</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Saviour's Rocks</th>
+                                            <td>20</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Scrimshander</th>
+                                            <td>10</td>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Shepherd Isles</th>
+                                            <td>20</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">The Chelonate</th>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Venderbight</th>
+                                            <td>20</td>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Whither</th>
+                                            <td>1 Zee-Ztory</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Wisdom</th>
+                                            <td>20</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Wrack: Struggling</th>
+                                            <td>20</td>
+                                            <td>11</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Wrack: Prospering</th>
+                                            <td>8</td>
+                                            <td>1</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="d-block d-md-none col-12 text-center">
+                            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#supplies"
+                                aria-expanded="false" aria-controls="supplies">
+                                Show table for Supplies
+                            </button>
+                            <div id="supplies" class="collapse">
+                                <table class="table table-dark table-bordered">
+                                    <caption>
+                                        <strong>Table of supply prices</strong>
+                                        <details>
+                                            <summary>More</summary>
+                                            <p>A table of supply prices, buying and selling, at each port.</p>
+                                        </details>
+                                    </caption>
+                                    <thead>
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col" colspan="2">Supplies</th>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col">Port</th>
+                                            <th scope="col">Buying</th>
+                                            <th scope="col">Selling</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="table-group-divider">
+                                        <tr>
+                                            <th scope="row">Adam's Way</th>
+                                            <td>25</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Aigul</th>
+                                            <td>23</td>
+                                            <td>10</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Anthe</th>
+                                            <td>25</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Codex</th>
+                                            <td>30</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">The Cumaean Canal</th>
+                                            <td>30</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Dahut</th>
+                                            <td>19</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Demeaux Island</th>
+                                            <td>30</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">London</th>
+                                            <td>20</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Gaider's Mourn</th>
+                                            <td>40</td>
+                                            <td>20</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Gant Pole</th>
+                                            <td>18</td>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Hideaway</th>
+                                            <td>-</td>
+                                            <td>15</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Irem</th>
+                                            <td>30 (or sell 1 Element of Dawn for 25 Supplies)</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Iron Republic: House of Pleasures</th>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Iron Republic: House of Milks</th>
+                                            <td>-</td>
+                                            <td>25</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Iron Republic: House of Harvests</th>
+                                            <td>15</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Iron Republic: House of Harms</th>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Isle of Cats</th>
+                                            <td>30</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Khan's Heart (no Nephrite Ring)</th>
+                                            <td>50</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Khan's Heart (with Nephrite Ring)</th>
+                                            <td>25</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Khan's Shadow</th>
+                                            <td>25</td>
+                                            <td>15</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Light-Ships</th>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Low Barnet</th>
+                                            <td>3 Memories of Distant Shores</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Mount Palmerston</th>
+                                            <td>22</td>
+                                            <td>11</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Mutton Island</th>
+                                            <td>30</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Nook</th>
+                                            <td>20</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Nuncio</th>
+                                            <td>30</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Polythreme</th>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Port Carnelian</th>
+                                            <td>18</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Port Cecil</th>
+                                            <td>30</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Rosegate</th>
+                                            <td>20</td>
+                                            <td>20</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Saviour's Rocks</th>
+                                            <td>30</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Scrimshander</th>
+                                            <td>23</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Shepherd Isles</th>
+                                            <td>30</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">The Chelonate</th>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Venderbight</th>
+                                            <td>30</td>
+                                            <td>8</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Whither</th>
+                                            <td>2 Tales of Terror</td>
+                                            <td>1 Tale of Terror</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Wisdom</th>
+                                            <td>30</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Wrack: Struggling</th>
+                                            <td>40</td>
+                                            <td>22</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Wrack: Prospering</th>
+                                            <td>15</td>
+                                            <td>3</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <hr>
+                <!-- Regions -->
+                <section>
+                    <h3>Regions</h3>
+                    <div class="row">
+                        <div class="col-12 clearfix">
+                            <!-- text -->
+                            <div class="col-12 col-md-8 float-start">
+                                <p>
+                                    Ports don’t always stay in place however, and you might be surprised to find a port
+                                    you’ve discovered with one captain is somewhere entirely different the next time
+                                    around.
+                                    <strong>The map is generated differently</strong> each time you start anew, but
+                                    named locations stay
+                                    in
+                                    certain <strong>regions</strong> of the map, so you may still have a rough sense of
+                                    where to find
+                                    each
+                                    port. Below you’ll find these regions and the locations belonging to them, as well
+                                    as a
+                                    colour-coded map.
+                                </p>
+                            </div>
+                            <!-- list -->
+                            <div class="col-12 col-md-4 float-end">
+                                <aside>
+                                    <ul>
+                                        <li>Near Home Waters
+                                            <ul>
+                                                <li>Corsair's Forest</li>
+                                                <li>Demeaux's Gate</li>
+                                                <li>Shepherd's Wash</li>
+                                                <li>Salt Lions</li>
+                                                <li>The Snares</li>
+                                            </ul>
+                                        </li>
+                                        <li>The Frozen North
+                                            <ul>
+                                                <li>Void's Approach</li>
+                                                <li>Palmerston's Reach</li>
+                                                <li>Stormbones</li>
+                                                <li>Frostfound</li>
+                                            </ul>
+                                        </li>
+                                        <li>The Distant East
+                                            <ul>
+                                                <li>The Calumnies</li>
+                                                <li>The Empire of Hands</li>
+                                                <li>The Chelonate</li>
+                                                <li>Gossamer Way</li>
+                                            </ul>
+                                        </li>
+                                        <li>The North-East
+                                            <ul>
+                                                <li>Principles of Coral</li>
+                                                <li>Sea of Lilies</li>
+                                                <li>Salt Steppes</li>
+                                                <li>Rattsey</li>
+                                                <li>Sea of Voices</li>
+                                            </ul>
+                                        </li>
+                                        <li>The South-East
+                                            <ul>
+                                                <li>Sea of Autumn</li>
+                                                <li>Myceligaea</li>
+                                                <li>Stamford's Expanse</li>
+                                                <li>The Promised Sea</li>
+                                            </ul>
+                                        </li>
+                                        <li>The Pillared Sea</li>
+                                    </ul>
+                                </aside>
+                            </div>
+                            <!-- map -->
+                            <div class="col-12 col-md-8 float-start">
+                                <figure class="text-center">
+                                    <a href="src/Map.webp">
+                                        <img class="img-fluid" src="src/mapsmall.jpg"
+                                            alt="A map of the Unterzee, colour-coded by region. It's a 6x6 grid of tiles, divided in accordance with the list of regions. The westernmost and southernmost tiles, as well as the tile in the top right corner, are uncolored and ungrouped, since they always stay in the same location. The possible places of some of the more notable landmarks are also indicated.">
+                                    </a>
+                                    <figcaption>A map of the Unterzee, colour-coded by region.</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </main>
+
+        <nav class="visually-hidden-focusable">
+            <a href="#main">Back to the top</a>
+        </nav>
+
+        <footer class="text-center">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <address>
+                        Made by: Kővári Dorottya
+                        <br>
+                        E-mail me at: <a href="mailto:voazh7@inf.elte.hu">voazh7@inf.elte.hu</a>
+                    </address>
+                </div>
+                <div class="col-12 col-md-6">
+                    <a href="https://www.failbettergames.com/games/sunless-sea">Sunless Sea official page</a>
+                    <br>
+                    <a href="https://store.steampowered.com/app/304650/SUNLESS_SEA/">Sunless Sea on Steam</a>
+                    <br>
+                    <a href="https://sunlesssea.fandom.com/wiki/Official_Sunless_Sea_Wiki">Sunless Sea Wiki</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

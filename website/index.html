@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Almanac - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link id="style" rel="stylesheet" href="style/maintheme.css">
+    <link rel="stylesheet" href="style/print.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+    <script>function toMain(){document.getElementById("style").href = "style/maintheme.css"; document.getElementById("transcription").classList = "col-12 collapse order-3 order-md-2 order-lg-3"; document.getElementById("switcheroo").classList = "col-12 col-md-6 order-1 order-md-3 order-lg-2";}</script>
+    <script>function toAlt(){document.getElementById("style").href = "style/alttheme.css"; document.getElementById("transcription").classList = "col-12 collapse order-3 order-lg-2"; document.getElementById("switcheroo").classList = "col-12 order-md-4 order-lg-3";}</script>
+</head>
+
+<body>
+    <nav class="visually-hidden-focusable">
+        <a href="#main">Jump to content</a>
+    </nav>
+
+    <header>
+        <a href="index.html" class="unaffected-link">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-1 col-lg-2"></div>
+                    <div class="col-3 col-lg-2">
+                        <img src="src/logo3.png" class="decorative" alt="logo">
+                    </div>
+                    <div class="col-4 col-lg-4 text-center"><h1 class="unaffected-link">The Almanac</h1></div>
+                    <div class="col-4"></div>
+                </div>
+            </div>
+        </a>
+    </header>
+
+    <div class="container-lg">
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav text-center">
+                  <li class="nav-item">
+                    <a class="nav-link active unaffected-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link unaffected-link" href="ports.html">Ports</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link unaffected-link" href="officers.html">Officers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link unaffected-link" href="feedback.html">Feedback</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle unaffected-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Style
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><button class="dropdown-item" type="button" onclick='toMain()'>Main</button></li>
+                        <li><button class="dropdown-item" type="button" onclick='toAlt()'>High-contrast</button></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <main id="main" class="container-lg text-start">
+            <article>
+                <section>
+                <h2>Home</h2>
+                <q class="flavour">Welcome, delicious friend!</q>
+                <div class="row align-items-center">
+                    <div class="d-none d-md-block col-md-4 text-center">
+                        <img class="img-fluid decorative" src="src/londonsmall.jpg" alt="A decorative image: an illustration from the game, showing Fallen London.">
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <p>
+                            <strong>Sunless Sea</strong> is a wonderful game much praised for its athmosphere and writing. It deals with
+                            themes of madness, the uncaring vastness of the sea, the dangers it presents and the many
+                            horrors lurking just beneath – fitting, then, that every time I boot up this game I feel
+                            <em>utterly lost</em> amid the sprawling web of tasks, choices, and the many moving parts. The point
+                            of this website is to clear up some of that confusion and provide a few <strong>cheat sheets</strong> that
+                            might be referenced during gameplay, and hopefully help make sense of this vast and
+                            labyrinthine game.
+                            <br>
+                            But why not just use the Sunless Sea Wiki, I hear you ask. The truth is, the Wiki manages,
+                            somehow, to be even <em>more</em> confusing than the game – an impressive feat, considering. If you'd like to check it out anyways, you can do so <a href="https://sunlesssea.fandom.com/wiki/Official_Sunless_Sea_Wiki">here!</a>
+                            <br>
+                            I hope this guide will prove helpful to you. Welcome, friend, to <strong>The Almanac</strong>!
+                        </p>
+                    </div>
+                </div>
+                </section>
+                <hr>
+                <section>
+                    <h3>About the game</h3>
+                    <div class="row">
+                        <div class="col-12 order-first">
+                            <p>
+                                If by any chance you have stumbled upon this website without having heard of Sunless
+                                Sea, well, you’re in luck! You get to learn of this wonderful game.
+                            </p>
+                        </div>
+                        <div class="col-12 col-lg-6 order-2 order-md-1 text-center">
+                            <figure>
+                                <video class="ratio ratio-16x9" controls src="src/vid3.mp4" poster="src/frame.jpg" width="750"></video>
+                                <figcaption>A clip from a <a href="https://www.youtube.com/watch?v=xyBhxaCQub8&t">review done by PancreasNoWork</a> on Youtube, to show you what you can (and cannot) expect if you play this game. It's an acquired taste.</figcaption>
+                            </figure>
+                            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#transcription"
+                                aria-expanded="false" aria-controls="transcription">
+                                Show transcription
+                            </button>
+                        </div>
+                        <div class="col-12 collapse order-3 order-md-2 order-lg-3" id="transcription">
+                                    <p class="text-start">A clip from a review of Sunless Sea.<br>
+                                        The video quickly zooms in on a stock photo of a hand pointing at the viewer.<br>
+                                        Narrator: 'Hey you!'<br>
+                                        Heroic music plays. The video cuts to a recording of a first person shooter. The player kills an opponent from the top of a building, jumps off, kills another while still in the air, then lands.<br>
+                                        Narrator: 'Do you enjoy fast-paced games where the action never lets up, even for a single second?'<br>
+                                        The music continues. The video cuts to another first person shooter. The player is in a warehouse, engaged in a boss fight. He stops shooting for a moment, then golden lightning strikes from the boss. After a second, the player starts fighting again.<br>
+                                        Narrator: 'Do you enjoy games that make you feel powerful and unstoppable, even if the enemies you face are themselves relentless?'<br>
+                                        The music cuts out. The video cuts to a screen recording of Sunless Sea with the recorder open on top of the game, showing the same screen recursively. The player clicks on the game's icon, bringing the game screen forward and hiding the screen recorder.<br>
+                                        Narrator: 'Well, then this game is not for you.'<br>
+                                        The video cuts to a recording from the game. The game's music plays in the background for the rest of the video. The Gazetteer, where the text-adventure part of the game takes place, is open to show Port Carnelian and the actions the player can take there. The player scrolls back and forth, looking through the options, then finally chooses 'Pan for sapphires in the fungal jungle', which requires a skill check. He fails.<br>
+                                        Narrator: 'However, if you want to roleplay as Benjamin Spooner Briggs from Limbo of the Lost in a game that wasn't itself playing limbo with standards of quality, then Sunless Sea might be for you.'<br>
+                                        Another recording from the game. The player is sailing near The Iron Republic, shooting at a Republican Dreadnought from behind.<br>
+                                        Narrator: 'Don't be fooled though. Your heart will still likely be pounding in your eardrums when you take a penalty to your stats for-'<br>
+                                        Cut to the Gazetteer, open on The Iron Republic. The player decides to Compile a Port Report.<br>
+                                        Narrator: '-filling out a form for the underground queen of England's DMV.'<br>
+                                        His stats remain unchanged.<br>
+                                        Cut to the game map. The player is at the island of Visage, which does not offer any options to refuel, but is this time incredibly close to the Iron Republic, the port with the cheapest fuel.<br>
+                                        Narrator: 'Or when you're desperately low on fuel, and the only safe refueling depot is just out of reach. Or very far out of reach.'<br>
+                                        Cut to the player sailing near Abbey Rock.<br>
+                                        Narrator: 'In the Unterzee, those things are the same. Time has little meaning here, and distance even less.'<br>
+                                        The clip ends.
+                                    </p>
+                        </div>
+                        <div class="col-12 col-md-6 order-1 order-md-3 order-lg-2" id="switcheroo">
+                            <p>From <a href="https://www.failbettergames.com/games/sunless-sea">the game studio’s website:</a></p>
+                            <blockquote cite="https://www.failbettergames.com/games/sunless-sea">
+                                Lose your mind. Eat your crew.
+                                <br>
+                                <strong>Captain a Victorian steamship</strong> on a vast underground sea! If the giant crabs, sentient
+                                icebergs and swarms of bats don’t get you, madness and cannibalism certainly will. But
+                                <strong>that old black ocean beckons</strong>, and there’s loot for the brave souls who dare to sail her.
+                                <br>
+                                {…}
+                                <br>
+                                <strong>Carve a life for your captain</strong> in a deep, compelling world packed with stories and
+                                secrets. Find your father’s bones. Determine London’s destiny. Defy the gods of the deep
+                                sea.
+                            </blockquote>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-12 order-4">
+                            <p>
+                                Doesn’t that sound <em>exciting</em>? Sunless Sea truly shines when it comes to its <strong>writing</strong>, its
+                                <strong>atmosphere</strong> and <strong>worldbuilding</strong>. It takes place in and expands upon the richly detailed
+                                universe of the game studio’s first game, <strong>Fallen London</strong>, and is, in turn, expanded upon
+                                by its indirect sequel, <strong>Sunless Skies</strong>.
+                                <br>
+                                The stories, the mystery, and the worldbuilding are what drew me to this game, and to
+                                this day I consider it – along with its sister games – one of my <em>favourite</em> (mostly)
+                                written media I’ve had the pleasure to experience. I hope you will enjoy it as much as I
+                                do.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <div class="row align-items-center">
+                    <img class="img-fluid decorative" src="src/304650_screenshots_20161016134551_1.jpg"
+                        alt="A decorative image: an illustration from the game, showing a half-sunken ship covered in cobwebs.">
+                </div>
+            </article>
+        </main>
+
+        <nav class="visually-hidden-focusable">
+            <a href="#main">Back to the top</a>
+        </nav>
+
+        <footer class="text-center">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <address>
+                        Made by: Kővári Dorottya
+                        <br>
+                        E-mail me at: <a href="mailto:voazh7@inf.elte.hu">voazh7@inf.elte.hu</a>
+                    </address>
+                </div>
+                <div class="col-12 col-md-6">
+                    <a href="https://www.failbettergames.com/games/sunless-sea">Sunless Sea official page</a>
+                    <br>
+                    <a href="https://store.steampowered.com/app/304650/SUNLESS_SEA/">Sunless Sea on Steam</a>
+                    <br>
+                    <a href="https://sunlesssea.fandom.com/wiki/Official_Sunless_Sea_Wiki">Sunless Sea Wiki</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,205 @@
+body{
+    /*background-color: rgb(34, 27, 27);*/
+    /*background-color: rgb(25, 34, 32);*/
+    /*background-color: rgb(22, 23, 23);*/
+    background-color: black;
+    font-family: 'Gill Sans MT', 'Trebuchet MS', sans-serif ;
+    font-size: 1.1em;
+}
+
+header{
+    background-image: url(../src/header2.jpg);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    margin-bottom: 3%;
+    box-shadow: -2px -2px 10px rgb(0, 0, 0) inset;
+}
+header .unaffected-link{
+    color: aliceblue;
+    font-family: 'Sedan', serif;
+    font-weight: bold;
+    font-size: 4.5vw;
+    text-decoration: none !important;
+    text-shadow: 2px 2px 1px gray;
+}
+header img{
+    width: 100%;
+}
+
+h2{
+    font-family: 'Sedan', serif;
+    font-size: 2.5em;
+}
+
+h3{
+    font-family: 'Sedan', serif;
+    font-size: 2em;
+    margin-top: 2%;
+}
+
+button.navbar-toggler{
+    margin-left: auto;
+    margin-right: auto;
+}
+nav.navbar{
+    border-radius: 20px 20px 0px 0px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(240, 255, 242);
+    width: fit-content;
+    background-color: rgb(22, 23, 23);
+    font-size: 1.2em;
+}
+.nav-link.unaffected-link{
+    color: rgb(240, 255, 242);
+}
+.nav-link.unaffected-link:hover{
+    color: #85ADA5;
+}
+.nav-link.unaffected-link.active{
+    color: rgb(0, 0, 0) !important;
+    font-weight: bold;
+    border-radius: 10px 10px 10px 10px;
+    border-color: rgb(240, 255, 242);
+    background-color: rgba(183, 255, 193, 0.9);
+    box-shadow: 0px 0px 5px rgb(240, 255, 242);
+}
+.nav-link.unaffected-link.dropdown-toggle.show{
+    background-color: rgb(240, 255, 242);
+    box-shadow: 0px 0px 3px rgba(240, 255, 242, 0.824);
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#main{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(22, 23, 23);
+    color: aliceblue;
+    box-shadow: 0px 0px 10px rgb(229, 248, 232);
+    border-radius: 0px 20px 0px 0px;
+    border: 2px solid rgb(93, 190, 181);
+    width: 100%;
+    padding: 2%;
+    font-size: 1.1em;
+}
+
+q.flavour{
+    font-size: 1em;
+    font-style: italic;
+}
+blockquote{
+    font-style: italic;
+}
+
+.decorative{
+    margin: auto;
+}
+
+div.row{
+    padding: 2%;
+}
+
+a{
+    color: aquamarine;
+}
+a:visited{
+    color: rgb(0, 184, 184);
+}
+
+hr{
+    color: rgb(240, 255, 242);
+    width: 70%;
+    margin: auto;
+}
+
+table{
+    width: 100%;
+}
+caption{
+    color: rgb(158, 158, 158);
+}
+
+#transcription{
+    background-color: #112b32;
+    color: rgb(240, 255, 242);
+    padding: 2%;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid rgb(128, 187, 164);
+    margin-bottom: 2%;
+}
+
+.btn{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 10px 10px 10px 10px;
+    border-color: rgb(240, 255, 242);
+    background-color: rgba(183, 255, 193, 0.9);
+    box-shadow: 0px 0px 5px rgb(240, 255, 242);
+    margin-bottom: 2%;
+}
+.btn:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+textarea{
+    width: 60%;
+}
+#email{
+    width: 40%;
+}
+
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(22, 23, 23);
+    color: aliceblue;
+    box-shadow: 0px 0px 10px rgb(229, 248, 232);
+    border-radius: 0px 0px 20px 20px;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+/*md*/
+@media only screen and (max-width: 991px) {
+    textarea{
+        width: 100%;
+    }
+    #email{
+        width: 100%;
+    }
+}
+
+/*sm*/
+@media only screen and (max-width: 767px) {
+    header{
+        background-size: cover;
+    }
+    #email{
+        width: 80%;
+    }
+}
+
+/*xs*/
+@media only screen and (max-width: 576px){
+    button.navbar-toggler{
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(240, 255, 242);
+        box-shadow: 0px 0px 3px rgb(240, 255, 242);
+    }
+    nav.navbar{
+        width: auto;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .navbar-nav{
+        margin-top: 3%;
+    }
+    #main{
+        border-radius: 0px 0px 0px 0px;
+        border: none;
+        border-top: 2px solid rgb(122, 122, 122);
+        border-bottom: 2px solid rgb(122, 122, 122);
+    }
+}

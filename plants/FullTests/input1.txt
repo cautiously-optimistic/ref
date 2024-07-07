@@ -1,0 +1,9 @@
+﻿4
+bokor1 b 4
+puff1 p 6
+del1 d 8
+del2 d 4
+bokor2 b 7
+del3 d 5
+bokor3 b 2
+del4 d 2

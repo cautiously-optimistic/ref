@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Almanac - Feedback</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link id="style" rel="stylesheet" href="style/maintheme.css">
+    <link rel="stylesheet" href="style/print.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet"></head>
+<body>
+    <nav class="visually-hidden-focusable">
+        <a href="#main">Jump to content</a>
+    </nav>
+
+    <header>
+        <a href="index.html" class="unaffected-link">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-1 col-lg-2"></div>
+                <div class="col-3 col-lg-2">
+                    <img src="src/logo3.png" class="decorative" alt="logo">
+                </div>
+                <div class="col-4 col-lg-4 text-center"><h1 class="unaffected-link">The Almanac</h1></div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+        </a>
+    </header>
+
+    <div class="container-lg">
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav text-center">
+                  <li class="nav-item">
+                    <a class="nav-link unaffected-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link unaffected-link" href="ports.html">Ports</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link unaffected-link" href="officers.html">Officers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active unaffected-link" aria-current="page" href="feedback.html">Feedback</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle unaffected-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Style
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><button class="dropdown-item" type="button" onclick='document.getElementById("style").href = "style/maintheme.css";'>Main</button></li>
+                        <li><button class="dropdown-item" type="button" onclick='document.getElementById("style").href = "style/alttheme.css";'>High-contrast</button></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    
+        <main id="main" class="container-lg text-start">
+            <article>
+                <h2>Feedback</h2>
+                <p>
+                    Do you have <strong>ideas</strong> on what else could be added to this site? I’d love to hear about it! To make sure I tailor the guides to the right audience, there are a couple additional bits of info I’ll ask for in the form below in regards to your experience in this game.
+                </p>
+                <form action="mailto:voazh7@inf.elte.hu" method="post" enctype="text/plain">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4 order-1">
+                            <fieldset>
+                                <legend>Experience</legend>
+                                <p>How many hours have you played?
+                                <br>
+                                <input type="radio" id="t0" name="time" value="0-20">
+								<label for="t0">0-20</label>
+                                <br>
+								<input type="radio" id="t21" name="time" value="21-50">
+								<label for="t21">21-50</label>
+                                <br>
+								<input type="radio" id="t51" name="time" value="51-100">
+								<label for="t51">51-100</label>
+                                <br>
+								<input type="radio" id="t101" name="time" value="101-200">
+								<label for="t101">101-200</label>
+                                <br>
+								<input type="radio" id="t201" name="time" value="201-500">
+								<label for="t201">201-500</label>
+                                <br>
+                                <input type="radio" id="t500" name="time" value="500+">
+								<label for="t500">500+</label>
+                                </p>
+                            </fieldset>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 order-3 order-lg-2">
+                            <fieldset>
+                                <legend>Ambitions</legend>
+                                <p>Which ambitions have you completed?
+                                <br>
+                                <input type="checkbox" id="bones" name="ambition" value="Bones">
+								<label for="bones">Your Father’s Bones</label>
+                                <br>
+								<input type="checkbox" id="wealth" name="ambition" value="Wealth">
+								<label for="wealth">Wealth</label>
+                                <br>
+								<input type="checkbox" id="zong" name="ambition" value="Zong">
+								<label for="zong">The Zong of the Zee</label>
+                                <br>
+								<input type="checkbox" id="kingdom" name="ambition" value="Kingdom">
+								<label for="kingdom">A Private Kingdom</label>
+                                <br>
+								<input type="checkbox" id="east" name="ambition" value="East">
+								<label for="east">The Uttermost East</label>
+                                <br>
+                                <input type="checkbox" id="death" name="ambition" value="Death">
+								<label for="death">Death Hath No More Dominion</label>
+                                </p>
+                            </fieldset>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 order-2 order-lg-3">
+                            <fieldset>
+                                <legend>The Wiki</legend>
+                                <p>Do you use the Sunless Sea Wiki?
+                                <br>
+                                <input type="radio" id="w1" name="wiki" value="Yes">
+								<label for="w1">Yes</label>
+                                <br>
+								<input type="radio" id="w2" name="wiki" value="Sometimes">
+								<label for="w2">Sometimes</label>
+                                <br>
+								<input type="radio" id="w3" name="wiki" value="No">
+								<label for="w3">No</label>
+                                <br>
+								<input type="radio" id="w4" name="wiki" value="What">
+								<label for="w4">There’s a Sunless Sea Wiki?</label>
+                            </p>
+                            </fieldset>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-12 order-4">
+                            <fieldset>
+                                <legend>Contact me!</legend>
+                                <p>
+                                <label for="email">Your E-mail:</label>
+                                <br>
+							    <input type="email" id="email" name="email" maxlength="50">
+                                <br>
+                                <br>
+                                <label for="suggestion">What else would you like to see on this site? Please put your suggestions below!</label>
+                                <br>
+                                <textarea id="suggestion" name="suggestion" rows="6" maxlength="600"></textarea>
+                                </p>
+                                <input type="submit" value="Submit" class="btn">
+                            </fieldset>
+                        </div>
+                    </div>
+                </form>
+            </article>
+        </main>
+
+        <nav class="visually-hidden-focusable">
+            <a href="#main">Back to the top</a>
+        </nav>
+
+        <footer class="text-center">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <address>
+                        Made by: Kővári Dorottya
+                        <br>
+                        E-mail me at: <a href="mailto:voazh7@inf.elte.hu">voazh7@inf.elte.hu</a>
+                    </address>
+                </div>
+                <div class="col-12 col-md-6">
+                    <a href="https://www.failbettergames.com/games/sunless-sea">Sunless Sea official page</a>
+                    <br>
+                    <a href="https://store.steampowered.com/app/304650/SUNLESS_SEA/">Sunless Sea on Steam</a>
+                    <br>
+                    <a href="https://sunlesssea.fandom.com/wiki/Official_Sunless_Sea_Wiki">Sunless Sea Wiki</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
