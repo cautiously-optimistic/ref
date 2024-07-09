@@ -6,15 +6,13 @@ using System.Threading.Tasks;
 
 namespace graph
 {
-    public class Node
+    public class Node : Element
     {
         public List<Edge> edges;
-        public readonly string name;
 
-        public Node(string name)
+        public Node(string name) : base(name)
         {
             edges = new List<Edge>();
-            this.name = name;
         }
 
         public override string ToString()

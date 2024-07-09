@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\Documents\\ref\\graph\\graph\\graph.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\Documents\\gt\\ref\\graph\\graph\\graph.csproj",
       "projectName": "graph",
-      "projectPath": "C:\\Users\\Dell\\Documents\\ref\\graph\\graph\\graph.csproj",
+      "projectPath": "C:\\Users\\Dell\\Documents\\gt\\ref\\graph\\graph\\graph.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\Documents\\ref\\graph\\graph\\obj\\",
+      "outputPath": "C:\\Users\\Dell\\Documents\\gt\\ref\\graph\\graph\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

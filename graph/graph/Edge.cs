@@ -6,20 +6,15 @@ using System.Threading.Tasks;
 
 namespace graph
 {
-    public class Edge
+    public class Edge : Element
     {
         public readonly Node n1;
         public readonly Node n2;
-        public readonly string name;
 
-        public Edge(Node n1, Node n2, string name)
+        public Edge(Node n1, Node n2, string name) : base(name)
         {
             this.n1 = n1;
             this.n2 = n2;
-            //n1.edges.Add(this);
-            //n2.edges.Add(this);
-            //graph.edgeCount++;
-            this.name = name;
         }
 
         public override string ToString()

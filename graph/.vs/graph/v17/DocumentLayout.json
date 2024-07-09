@@ -1,12 +1,120 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dell\\Documents\\ref\\graph\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Documents\\gt\\ref\\graph\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3BFFB6-17B5-4BDA-960D-5AD494933D20}|graph\\graph.csproj|c:\\users\\dell\\documents\\gt\\ref\\graph\\graph\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3BFFB6-17B5-4BDA-960D-5AD494933D20}|graph\\graph.csproj|solutionrelative:graph\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3BFFB6-17B5-4BDA-960D-5AD494933D20}|graph\\graph.csproj|c:\\users\\dell\\documents\\gt\\ref\\graph\\graph\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3BFFB6-17B5-4BDA-960D-5AD494933D20}|graph\\graph.csproj|solutionrelative:graph\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3BFFB6-17B5-4BDA-960D-5AD494933D20}|graph\\graph.csproj|c:\\users\\dell\\documents\\gt\\ref\\graph\\graph\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3BFFB6-17B5-4BDA-960D-5AD494933D20}|graph\\graph.csproj|solutionrelative:graph\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD1EFF5-2572-400D-B452-1F07D49F21E4}|UnitTest\\UnitTest.csproj|c:\\users\\dell\\documents\\gt\\ref\\graph\\unittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD1EFF5-2572-400D-B452-1F07D49F21E4}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3BFFB6-17B5-4BDA-960D-5AD494933D20}|graph\\graph.csproj|c:\\users\\dell\\documents\\gt\\ref\\graph\\graph\\element.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3BFFB6-17B5-4BDA-960D-5AD494933D20}|graph\\graph.csproj|solutionrelative:graph\\element.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3BFFB6-17B5-4BDA-960D-5AD494933D20}|graph\\graph.csproj|c:\\users\\dell\\documents\\gt\\ref\\graph\\graph\\edge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3BFFB6-17B5-4BDA-960D-5AD494933D20}|graph\\graph.csproj|solutionrelative:graph\\edge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\gt\\ref\\graph\\UnitTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "UnitTest\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\gt\\ref\\graph\\UnitTest\\UnitTest1.cs",
+              "RelativeToolTip": "UnitTest\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T17:22:07.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Element.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\gt\\ref\\graph\\graph\\Element.cs",
+              "RelativeDocumentMoniker": "graph\\Element.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\gt\\ref\\graph\\graph\\Element.cs",
+              "RelativeToolTip": "graph\\Element.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T15:37:22.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edge.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\gt\\ref\\graph\\graph\\Edge.cs",
+              "RelativeDocumentMoniker": "graph\\Edge.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\gt\\ref\\graph\\graph\\Edge.cs",
+              "RelativeToolTip": "graph\\Edge.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T15:28:48.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Graph.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\gt\\ref\\graph\\graph\\Graph.cs",
+              "RelativeDocumentMoniker": "graph\\Graph.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\gt\\ref\\graph\\graph\\Graph.cs",
+              "RelativeToolTip": "graph\\Graph.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T15:28:47.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\gt\\ref\\graph\\graph\\Node.cs",
+              "RelativeDocumentMoniker": "graph\\Node.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\gt\\ref\\graph\\graph\\Node.cs",
+              "RelativeToolTip": "graph\\Node.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T15:28:46.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\gt\\ref\\graph\\graph\\Program.cs",
+              "RelativeDocumentMoniker": "graph\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\gt\\ref\\graph\\graph\\Program.cs",
+              "RelativeToolTip": "graph\\Program.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwDkAAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T15:26:55.595Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

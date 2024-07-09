@@ -29,15 +29,6 @@ namespace graph
             edgeCount /= 2;
         }
 
-        /*public void AddNode(Node node)
-        {
-            if(node != null && !nodes.Contains(node))
-            {
-                nodes.Add(node);
-                edgeCount += node.edges.Count;
-            }
-        }*/
-
         public void AddEdge(Node n1, Node n2, string name)
         {
             Edge e = new Edge(n1, n2, name);
@@ -46,28 +37,9 @@ namespace graph
             edgeCount++;
         }
 
-        /*public void RemoveNode(Node node)
+        public (bool, List<Element>?) HasEuler()
         {
-            if(node != null && nodes.Contains(node))
-            {
-                foreach(Edge e in node.edges)
-                {
-                    RemoveEdge(e);
-                }
-                nodes.Remove(node);
-            }
-        }*/
-
-        /*public void RemoveEdge(Edge edge)
-        {
-            edge.n1.edges.Remove(edge);
-            edge.n2.edges.Remove(edge);
-            edgeCount--;
-        }*/
-
-        public (bool, List<Edge>?) HasEuler()
-        {
-            List<Edge> path = new List<Edge>();
+            List<Element> path = new List<Element>();
             bool l = false;
             int i = 0;
             while(!l &&  i < nodes.Count)
@@ -84,9 +56,10 @@ namespace graph
             }
         }
 
-        private bool EulerRecursive(List<Edge> path, Node from)
+        private bool EulerRecursive(List<Element> path, Node from)
         {
-            if(path.Count == edgeCount)
+            path.Add(from);
+            if(path.Count/2 == edgeCount)
             {
                 return true;
             }
@@ -109,13 +82,17 @@ namespace graph
                     }
                     i++;
                 }
+                if (!l)
+                {
+                    path.Remove(from);
+                }
                 return l;
             }
         }
 
-        public (bool, List<Node>?) HasHamilton()
+        public (bool, List<Element>?) HasHamilton()
         {
-            List<Node> path = new List<Node>();
+            List<Element> path = new List<Element>();
             bool l = false;
             int i = 0;
             while (!l && i < nodes.Count)
@@ -138,9 +115,9 @@ namespace graph
             }
         }
 
-        public bool HamiltonRecursive(List<Node> path, Node from, Node startpoint)
+        public bool HamiltonRecursive(List<Element> path, Node from, Node startpoint)
         {
-            if(path.Count > nodes.Count)
+            if(path.Count/2 > nodes.Count)
             {
                 return false;
             }
@@ -151,20 +128,23 @@ namespace graph
                 {
                     Edge e = from.edges[i];
                     Node to = from == e.n1 ? e.n2 : e.n1;
-                    if (!path.Contains(to) && to != startpoint)
+                    if (!path.Contains(to))
                     {
+                        path.Add(e);
                         path.Add(to);
 
                         l = HamiltonRecursive(path, to, startpoint);
                         if (!l)
                         {
+                            path.Remove(e);
                             path.Remove(to);
                         }
                     }
                     else
                     {
-                        if (path.Count == nodes.Count && to == startpoint)
+                        if (path.Count/2+1 == nodes.Count && to == startpoint)
                         {
+                            path.Add(e);
                             path.Add(to);
                             return true;
                         }
@@ -174,5 +154,30 @@ namespace graph
                 return l;
             }
         }
+
+        /*public void AddNode(string name)
+        {
+            Node node = new Node(name);
+            nodes.Add(node);
+        }*/
+
+        /*public void RemoveNode(Node node)
+        {
+            if(node != null && nodes.Contains(node))
+            {
+                foreach(Edge e in node.edges)
+                {
+                    RemoveEdge(e);
+                }
+                nodes.Remove(node);
+            }
+        }*/
+
+        /*public void RemoveEdge(Edge edge)
+        {
+            edge.n1.edges.Remove(edge);
+            edge.n2.edges.Remove(edge);
+            edgeCount--;
+        }*/
     }
 }

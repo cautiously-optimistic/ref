@@ -1,0 +1,3 @@
+A console program for determining if a graph contains an Eulerian path and/or a Hamiltonian cycle. If it does, the program displays the first found example. The graph should be a finite simple graph, described by the user by defining and naming its nodes and edges (names serving as the main way to differentiate between elements of a graph when a path is displayed to users). Currently the user is prevented from creating edges that connect to the same node at both ends, but not from creating multiple edges between two nodes.
+
+Written in C# in Visual Studio for .NET 8.0.
