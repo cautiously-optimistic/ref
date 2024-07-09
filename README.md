@@ -1,4 +1,4 @@
-This is a repository for my projects written for past school assignments. The current document gives a quick overview of the contents. Each assignment has its own folder, which contain .txt files with more in-depth explanations of the given project.
+This is a repository for my projects written for past school assignments. The current document gives a quick overview of the contents. Each assignment has its own folder, which contain README files with more in-depth explanations of the given project.
 
 Projects:
 - boardgame: a library for simulating a single piece's movements on a board while controlled by multiple players. Written in Java.

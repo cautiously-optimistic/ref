@@ -1,0 +1,3 @@
+A simplified game of snake playable in terminal. The snake moves upon player input (typing 'w', 'a', 's' or 'd', then hitting enter). The length of the snake is fixed. Upon starting, the game places ten apples in random places within the field. The game stops upon running into a wall or into any part of the snake, or upon collecting all apples. The game ignores invalid inputs, but can accept and process multiple characters in a single line as multiple moves.
+
+Written in C, meant to be compiled using gcc and, originally, run in a Linux terminal. Added a couple lines so it can be run in Windows Command Prompt without issues as well.

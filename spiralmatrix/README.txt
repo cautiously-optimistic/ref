@@ -1,0 +1,4 @@
+A console program for creating, displaying and saving spiral matrices to file. The user can create a matrix by specifying its size, the direction of the spiral's spin (clockwise or counter-clockwise), and the direction the spiral starts (up, down, left, right). Greater numbers will be closer to the edge, while smaller numbers will be closer to the middle, 1 being in the center.
+The generated matrix can then be displayed and saved to a .txt file. Previously saved matrices can be loaded into the program and displayed as well.
+
+Written in C, meant to be compiled using gcc and, originally, run in a Linux terminal. Added a couple lines so it can be run in Windows Command Prompt without issues as well.
