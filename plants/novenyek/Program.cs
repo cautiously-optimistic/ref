@@ -1,5 +1,4 @@
-﻿using TextFile;
-using static System.IO.StreamWriter;
+﻿using static System.IO.StreamWriter;
 
 namespace novenyek
 {
@@ -10,35 +9,39 @@ namespace novenyek
             //beolvasas
             Console.WriteLine("Fajl neve: ");
             string filename = Console.ReadLine();
-
-            TextFileReader reader = new TextFileReader(filename);
             List<Noveny> novenyek = new List<Noveny>();
-            string line = reader.ReadLine();
-            int napok = int.Parse(line);
+            int napok;
 
-            while(reader.ReadLine(out line))
+            using (StreamReader reader = new StreamReader(filename))
             {
-                String[] components = line.Split(' ');
-                string nev = components[0];
-                char fajta = char.Parse(components[1]);
-                int tapanyag = int.Parse(components[2]);
+                
+                string line = reader.ReadLine();
+                napok = int.Parse(line);
 
-                Noveny? noveny = null;
-                switch (fajta)
+                while ((line = reader.ReadLine()) != null)
                 {
-                    case 'p':
-                        noveny = new Puffancs(nev, tapanyag);
-                        break;
-                    case 'd':
-                        noveny = new Deltafa(nev, tapanyag);
-                        break;
-                    case 'b':
-                        noveny = new Parabokor(nev, tapanyag);
-                        break;
-                }
-                if(noveny != null)
-                {
-                    novenyek.Add(noveny);
+                    String[] components = line.Split(' ');
+                    string nev = components[0];
+                    char fajta = char.Parse(components[1]);
+                    int tapanyag = int.Parse(components[2]);
+
+                    Noveny? noveny = null;
+                    switch (fajta)
+                    {
+                        case 'p':
+                            noveny = new Puffancs(nev, tapanyag);
+                            break;
+                        case 'd':
+                            noveny = new Deltafa(nev, tapanyag);
+                            break;
+                        case 'b':
+                            noveny = new Parabokor(nev, tapanyag);
+                            break;
+                    }
+                    if (noveny != null)
+                    {
+                        novenyek.Add(noveny);
+                    }
                 }
             }
 

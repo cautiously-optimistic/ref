@@ -137,7 +137,7 @@ namespace TestNovenyek
             Assert.IsTrue(a.GetJel() == 10);
             Assert.IsTrue(d.GetJel() == 5);
 
-            //cleanup? az instance-t is jó lenne nullra állítani
+            //cleanup
             a.Nullazas();
             d.Nullazas();
             

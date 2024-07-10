@@ -1,5 +1,4 @@
 using novenyek;
-using TextFile;
 
 namespace FullTests
 {
@@ -10,12 +9,13 @@ namespace FullTests
         public void Test1()
         {
             //novenyek, bolygo letrehozasa
-            TextFileReader reader = new TextFileReader("input1.txt");
+
+            StreamReader reader = new StreamReader("input1.txt");
             List<Noveny> novenyek = new List<Noveny>();
             string line = reader.ReadLine();
             int napok = int.Parse(line);
 
-            while (reader.ReadLine(out line))
+            while ((line = reader.ReadLine()) != null)
             {
                 String[] components = line.Split(' ');
                 string nev = components[0];
@@ -40,6 +40,7 @@ namespace FullTests
                     novenyek.Add(noveny);
                 }
             }
+            reader.Close();
 
             Bolygo bolygo = new Bolygo(novenyek);
 
@@ -70,18 +71,20 @@ namespace FullTests
             (bool l, Noveny? n) = bolygo.Legerosebb();
             Assert.AreEqual(true, l);
             Assert.AreEqual("del1 (deltafa): 7", n.ToString());
+
+            output.Close();
         }
 
         [TestMethod]
         public void Test2()
         {
             //novenyek, bolygo letrehozasa
-            TextFileReader reader = new TextFileReader("input2.txt");
+            StreamReader reader = new StreamReader("input2.txt");
             List<Noveny> novenyek = new List<Noveny>();
             string line = reader.ReadLine();
             int napok = int.Parse(line);
 
-            while (reader.ReadLine(out line))
+            while ((line = reader.ReadLine()) != null)
             {
                 String[] components = line.Split(' ');
                 string nev = components[0];
@@ -106,6 +109,7 @@ namespace FullTests
                     novenyek.Add(noveny);
                 }
             }
+            reader.Close();
 
             Bolygo bolygo = new Bolygo(novenyek);
 
@@ -133,18 +137,20 @@ namespace FullTests
             (bool l, Noveny? n) = bolygo.Legerosebb();
             Assert.AreEqual(true, l);
             Assert.AreEqual("puff1 (puffancs): 8", n.ToString());
+
+            output.Close();
         }
 
         [TestMethod]
         public void Test3()
         {
             //novenyek, bolygo letrehozasa
-            TextFileReader reader = new TextFileReader("input3.txt");
+            StreamReader reader = new StreamReader("input3.txt");
             List<Noveny> novenyek = new List<Noveny>();
             string line = reader.ReadLine();
             int napok = int.Parse(line);
 
-            while (reader.ReadLine(out line))
+            while ((line = reader.ReadLine()) != null)
             {
                 String[] components = line.Split(' ');
                 string nev = components[0];
@@ -169,6 +175,8 @@ namespace FullTests
                     novenyek.Add(noveny);
                 }
             }
+
+            reader.Close();
 
             Bolygo bolygo = new Bolygo(novenyek);
 
@@ -195,6 +203,8 @@ namespace FullTests
             (bool l, Noveny? n) = bolygo.Legerosebb();
             Assert.AreEqual(false, l);
             Assert.AreEqual(null, n);
+
+            output.Close();
         }
     }
 }

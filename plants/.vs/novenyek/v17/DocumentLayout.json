@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dell\\Documents\\ref\\plants\\",
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Documents\\gt\\ref\\plants\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64C073FD-D014-4391-A15A-B77612E5D133}|novenyek\\novenyek.csproj|c:\\users\\dell\\documents\\ref\\plants\\novenyek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64C073FD-D014-4391-A15A-B77612E5D133}|novenyek\\novenyek.csproj|c:\\users\\dell\\documents\\gt\\ref\\plants\\novenyek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64C073FD-D014-4391-A15A-B77612E5D133}|novenyek\\novenyek.csproj|solutionrelative:novenyek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64C073FD-D014-4391-A15A-B77612E5D133}|novenyek\\novenyek.csproj|c:\\users\\dell\\documents\\ref\\plants\\novenyek\\novenyek.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{64C073FD-D014-4391-A15A-B77612E5D133}|novenyek\\novenyek.csproj|solutionrelative:novenyek\\novenyek.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,26 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\ref\\plants\\novenyek\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\gt\\ref\\plants\\novenyek\\Program.cs",
               "RelativeDocumentMoniker": "novenyek\\Program.cs",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\ref\\plants\\novenyek\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\gt\\ref\\plants\\novenyek\\Program.cs",
               "RelativeToolTip": "novenyek\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T18:11:45.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "novenyek",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\ref\\plants\\novenyek\\novenyek.csproj",
-              "RelativeDocumentMoniker": "novenyek\\novenyek.csproj",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\ref\\plants\\novenyek\\novenyek.csproj",
-              "RelativeToolTip": "novenyek\\novenyek.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-07T18:11:39.637Z",
+              "WhenOpened": "2024-07-10T14:45:57.715Z",
               "EditorCaption": ""
             }
           ]
